@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*-------------------------------------------
+  *Filename:		.css
+  *Description:		
+  *Version:			1.0 (00-00-0000)
+  *Website:			http://
+  *Author:			
+-------------------------------------------*/
+@media (max-width:799px){
+    nav#main .logo{width:180px;margin-right: 25px;}
+    nav#main .logo a{
+        font-size: 1.5em;
+    }
+    div.grey-bg .content{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*nav - main*/
+	nav#main .mobile-menu-btn{
+        display: block;
+        position: relative;
+        top: -5px;
+	}
+
+	nav#main ol.main-nav{
+		display: none;
+		position: absolute;
+		top: 57px;
+		left: 0;
+		width: 100%;
+		float: none;
+        clear: both;
+        margin:0;
+		padding: 0;
+		text-align: center;
+		background-color: #FFF;
+	}
+
+	nav#main ol.main-nav li{
+		display: block;
+		float: none;
+		clear: both;
+		padding: 13px 0 13px 0;
+		margin: 0;
+		border-bottom: 1px solid #dddddd;
+	}
+
+	nav#main ol.main-nav li a{
+		color: #000;
+	}
+    nav#main .main-nav .mobile-nav-btn{display: block;}
+    .content .items .item{
+        flex: 40%;
+        max-width: 40%;
+    }
+}
+@media (max-width:599px){
+    nav#main .logo{width:150px;height:55px;}
+    nav#main .logo a{
+        font-size: 1.3em;
+    }
+    nav#main .main-nav .mobile-nav-btn{display:block;}
+}
