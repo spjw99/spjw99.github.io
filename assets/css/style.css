@@ -137,7 +137,7 @@ div.grey-bg .content {
     background-color: #fff;
     padding: 25px;
     color: #777777;
-    min-height:500px;
+    min-height:400px;
     overflow:hidden;
 }
 div.grey-bg .content .me_img{float:left;margin: 0 15px 15px 0;}
